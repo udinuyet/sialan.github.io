@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teka-teki Gombal</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<audio id="myAudio" preload="auto">
+  <source src="sound/capa.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<div class="container">
+  <div id="teka-teki" class="tahap active">
+    <h2>Kamu tau ga warna bendera negara kita itu apa?</h2>
+    <input type="text" id="jawaban" placeholder="Jawaban...">
+    <button onclick="cekJawaban()">Selanjutnya</button>
+  </div>
+  <div id="jawaban-container" class="tahap">
+    <p id="jawaban-teks"></p>
+    <button class="iya" onclick="jawabanBenar()">Iya</button>
+    <button class="nggak" onclick="jawabanSalah()">Nggak</button>
+  </div>
+  <div id="hasil" class="tahap">
+    <img src="GIF/giphy.gif" alt="Congratulations">
+    <p id="pesan">Yeyy, selamat kamu sudah <br> memenangkan hatiku!!😍😍😍</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

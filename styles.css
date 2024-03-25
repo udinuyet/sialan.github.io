@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffc0cb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: ;
+}
+
+.tahap {
+  display: none;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fce2e2;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.active {
+  display: block;
+}
+
+h2 {
+  color: #ff007f;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #e91e63; /* Warna latar tombol */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative; /* Mengatur posisi relatif */
+}
+
+button:hover {
+  background-color: #c2185b; /* Warna latar tombol saat dihover */
+}
+
+.result {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ff0077; /* Warna teks jawaban */
+  font-weight: bold;
+  font-family: cursive;
+}
+
+img {
+  max-width: 65%;
+  height: auto;
+}
+
+#pesan {
+  font-family: "Comic Sans MS", cursive; /* Menggunakan font Comic Sans MS */
+  font-size: 20px; /* Ukuran font */
+  color: #ff007f; /* Warna teks */
+  font-weight: bold;
+}
